@@ -57,9 +57,9 @@
       "required": true,
       "default": "accessory"
     },
-    "order": {
+    "orders": {
       "via": "product",
-      "model": "order"
+      "collection": "order"
     }
   }
 }
