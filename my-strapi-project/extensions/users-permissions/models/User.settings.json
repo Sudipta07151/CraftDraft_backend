@@ -62,6 +62,14 @@
     "product_lists": {
       "via": "user",
       "collection": "product-list"
+    },
+    "wish_list": {
+      "via": "users_permissions_user",
+      "model": "wish-list"
+    },
+    "orders": {
+      "via": "user",
+      "collection": "order"
     }
   }
 }
